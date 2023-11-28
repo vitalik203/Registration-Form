@@ -10,31 +10,46 @@
     <fieldset class="cotainer">
         <form action="">
             <div class="input__block-one full-name">
-
+                <label for="fName">Enter your full name</label>
+                <input type="text" class="fName">
             </div>
             <div class="input__block-two email">
-                
+                <label for="email-address">Enter your email address</label>
+                <input type="email" class="email-address">
             </div>
             <div class="block__container">
                 <div class="input__block-three mobile-number">
-                
+                    <label for="phone">Enter your phone number</label>
+                    <input type="number" class="phone">
                 </div>
                 <div class="input__block-three date-of-birth">
-                
+                    <label for="dateOfBirth">Enter your date of birth</label>
+                    <input type="date" class="dateOfBirth">
                 </div>
             </div>
             <div class="input__block-four gender">
-                
+                <label for="gender"><input value="male" type="radio" class="gender" name="gender">Male</label>
+                <label for="gender"><input value="female" type="radio" class="gender" name="gender">Female</label>
             </div>
             <div class="input__block-five address">
-                
+                <label for="address">Enter your Address</label>
+                <input type="text" class="address">
             </div>
             <div class="block__container">
                 <div class="input__block-six country">
-                
+                    <select name="country" id="select-country">
+                        <option value="">Select</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="USA">USA</option>
+                    </select>
                 </div>
                 <div class="input__block-seven postal-code">
-                
+                    <label for="postcode">Enter your postal code</label>
+                    <input type="number" class="postcode">
                 </div>
             </div>
             <button type="submit">Submtit</button>
