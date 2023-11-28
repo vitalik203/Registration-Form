@@ -1,1 +1,93 @@
-/*# sourceMappingURL=styles.css.map */
+@charset "UTF-8";
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: darkorchid;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  height: auto;
+  width: 500px;
+}
+
+form {
+  width: 100%;
+  padding: 20px;
+}
+form div {
+  display: block;
+}
+
+fieldset {
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: none;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.option {
+  margin: 0 0 35px 0;
+}
+
+.male-smiley::before {
+  content: "👨"; /* Emoji code for male symbol */
+  font-size: 24px;
+}
+
+.female-smiley::before {
+  content: "👩"; /* Emoji code for female symbol */
+  font-size: 24px;
+}
+
+.gender {
+  margin-bottom: 35px;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #97c4fe;
+  background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+  background-color: #3d94f6;
+  border: 1px solid #337fed;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #1570cd;
+  width: 65%;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+  background-color: #1e62d0;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 25px;
+}
+
+input[type=radio] {
+  width: 15px;
+  height: 15px;
+}/*# sourceMappingURL=styles.css.map */
