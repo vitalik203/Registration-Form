@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: darkorchid;
+  background-color: rgb(206, 238, 65);
 }
 
 .container {
@@ -28,7 +28,6 @@ form div {
 fieldset {
   margin-top: 40px;
   background-color: #fff;
-  border-radius: 15px;
   border: none;
 }
 
