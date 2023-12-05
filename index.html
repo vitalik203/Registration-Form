@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <fieldset class="container">
+        <div class="wrapper">
+            <!-- Before form -->
+            <form action="">
+                <div class="input__block-one option full-name">
+                    <label for="fName">Enter Name</label><br>
+                    <input type="text" class="fName" placeholder="Enter yout full name">
+                </div>
+                <div class="input__block-two option email">
+                    <label for="email-address">Email Address</label><br>
+                    <input type="email" class="email-address" placeholder="Enter your email address">
+                </div>
+                <div class="block__container">
+                    <div class="input__block-three option mobile-number">
+                        <label for="phone">Mobile Phone</label><br>
+                        <input type="number" class="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="input__block-four option date-of-birth">
+                        <label for="dateOfBirth">Birth Date</label>
+                        <input type="date" class="dateOfBirth">
+                    </div>
+                </div>
+                <!-- <h2>Hi</h2> -->
+                <div class="input__block-four gender1">
+                    <p>Gender</p>
+                    <div class="gender__cover">
+                        <label for="gender">Male <input value="male" type="radio" class="gender" name="gender"><span class="male-smiley"></span></label>
+                        <label for="gender">Female <input value="female" type="radio" class="gender" name="gender"><span class="female-smiley"></span></label>
+                    </div>
+                </div>
+                <div class="input__block-five address">
+                    <label for="address">Address</label><br>
+                    <input type="text" class="address" placeholder="Enter your address">
+                </div>
+                <div class="block__container last_block">
+                    <div class="input__block-six country">
+                        <p>Country</p>
+                        <select name="country" id="select-country" placeholder="Country">
+                            <option value="">Select</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </div>
+                    <div class="input__block-seven postal-code">
+                        <label for="postcode">Enter your postal code</label>
+                        <input type="number" class="postcode" placeholder="Postal code">
+                    </div>
+                </div>
+                <button class="myButton" type="submit">Submtit</button>
+            </form>
+        </div>
+    </fieldset>
+</body>
+</html>

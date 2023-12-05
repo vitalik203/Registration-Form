@@ -1,0 +1,157 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: url(https://abrakadabra.fun/uploads/posts/2022-02/1644361077_2-abrakadabra-fun-p-fon-dlya-saita-minimalizm-3.jpg);
+}
+
+.container{
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 3px solid grey;
+    font-size: 1.5em;
+    color: rgb(88, 87, 87);
+    input{
+        font-size: 0.7em;
+    }
+}
+
+.wrapper{
+    height: auto;
+    width: 500px;
+}
+
+form{
+    width: 100%;
+    padding: 20px;
+    div{
+        display: block;
+    }
+}
+
+fieldset{
+    margin-top: 40px;
+    background-color: #fff;
+    border: none;
+}
+
+label{
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.input__block-one {
+}
+.full-name {
+}
+.fName {
+}
+.input__block-two {
+}
+.email {
+}
+.email-address {
+}
+.option{
+    margin: 0 0 35px 0;
+}
+.gender{
+    margin-bottom: 35px;
+}  
+.gender__cover{
+    display: flex;
+    column-gap: 20px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border:1px solid #337fed;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+    width: 65%;
+    margin: 20px auto;
+}
+#select-country{
+    width: 75px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+}
+
+.postcode{
+    width: 50%;
+}
+
+.last_block{
+    margin: 20px 0 20px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.country{
+    p{
+        margin: 0;
+    }
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    height: 25px;
+    
+}
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
+.block__container {
+}
+.input__block-three {
+}
+.mobile-number {
+}
+.phone {
+}
+.date-of-birth {
+}
+.dateOfBirth {
+}
+.input__block-four {
+}
+.gender {
+}
+.input__block-five {
+}
+.address {
+}
+.input__block-six {
+}
+.country {
+}
+.input__block-seven {
+}
+.postal-code {
+}
+.postcode {
+}
