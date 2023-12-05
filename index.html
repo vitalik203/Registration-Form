@@ -7,6 +7,7 @@
     <title>Registration Form</title>
 </head>
 <body>
+    
     <fieldset class="container">
         <div class="wrapper">
             <!-- Before form -->
@@ -31,16 +32,19 @@
                 </div>
                 <!-- <h2>Hi</h2> -->
                 <div class="input__block-four gender1">
-                    <p>Gender</p><br>
-                    <label for="gender"><input value="male" type="radio" class="gender" name="gender"><span class="male-smiley"></span></label>
-                    <label for="gender"><input value="female" type="radio" class="gender" name="gender"><span class="female-smiley"></span></label>
+                    <p>Gender</p>
+                    <div class="gender__cover">
+                        <label for="gender">Male <input value="male" type="radio" class="gender" name="gender"><span class="male-smiley"></span></label>
+                        <label for="gender">Female <input value="female" type="radio" class="gender" name="gender"><span class="female-smiley"></span></label>
+                    </div>
                 </div>
                 <div class="input__block-five address">
                     <label for="address">Address</label><br>
-                    <input type="text" class="address">
+                    <input type="text" class="address" placeholder="Enter your address">
                 </div>
-                <div class="block__container">
+                <div class="block__container last_block">
                     <div class="input__block-six country">
+                        <p>Country</p>
                         <select name="country" id="select-country" placeholder="Country">
                             <option value="">Select</option>
                             <option value="Afghanistan">Afghanistan</option>
@@ -53,7 +57,7 @@
                     </div>
                     <div class="input__block-seven postal-code">
                         <label for="postcode">Enter your postal code</label>
-                        <input type="number" class="postcode">
+                        <input type="number" class="postcode" placeholder="Postal code">
                     </div>
                 </div>
                 <button class="myButton" type="submit">Submtit</button>

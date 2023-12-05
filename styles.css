@@ -1,15 +1,21 @@
-@charset "UTF-8";
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-  background-color: rgb(129, 156, 8);
+  background: url(https://abrakadabra.fun/uploads/posts/2022-02/1644361077_2-abrakadabra-fun-p-fon-dlya-saita-minimalizm-3.jpg);
 }
 
 .container {
   width: 550px;
   margin: 0 auto;
+  border-radius: 5px;
+  border: 3px solid grey;
+  font-size: 1.5em;
+  color: rgb(88, 87, 87);
+}
+.container input {
+  font-size: 0.7em;
 }
 
 .wrapper {
@@ -33,24 +39,21 @@ fieldset {
 
 .container {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .option {
   margin: 0 0 35px 0;
 }
 
-.male-smiley::before {
-  content: "👨"; /* Emoji code for male symbol */
-  font-size: 24px;
-}
-
-.female-smiley::before {
-  content: "👩"; /* Emoji code for female symbol */
-  font-size: 24px;
-}
-
 .gender {
   margin-bottom: 35px;
+}
+
+.gender__cover {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 .myButton {
@@ -58,7 +61,7 @@ fieldset {
   background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
   background-color: #3d94f6;
   border: 1px solid #337fed;
-  display: inline-block;
+  display: block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
@@ -68,6 +71,29 @@ fieldset {
   text-decoration: none;
   text-shadow: 0px 1px 0px #1570cd;
   width: 65%;
+  margin: 20px auto;
+}
+
+#select-country {
+  width: 75px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+}
+
+.postcode {
+  width: 50%;
+}
+
+.last_block {
+  margin: 20px 0 20px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.country p {
+  margin: 0;
 }
 
 .myButton:hover {
